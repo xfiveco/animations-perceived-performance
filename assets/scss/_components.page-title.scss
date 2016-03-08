@@ -5,15 +5,20 @@
   position: absolute;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+  width: 100%;
   z-index: 10;
 }
 
 .c-page-title__main {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
+
+  @include bp-large {
+    font-size: 3rem;
+  }
 
   em {
     font-family: Georgia, serif;

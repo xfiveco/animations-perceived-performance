@@ -511,15 +511,23 @@ body {
   padding: 0; }
 
 .c-header {
-  position: relative;
-  background: red; }
+  position: relative; }
 
 .c-header__logo-image {
   left: 3rem;
   position: absolute;
   top: 2rem;
-  width: 80px;
+  width: 50px;
   z-index: 10; }
+  @media only screen and (min-width: 768px) {
+    .c-header__logo-image {
+      width: 60px; } }
+  @media only screen and (min-width: 1024px) {
+    .c-header__logo-image {
+      width: 70px; } }
+  @media only screen and (min-width: 1600px) {
+    .c-header__logo-image {
+      width: 80px; } }
 
 .c-main-nav {
   position: absolute;
@@ -533,11 +541,17 @@ body {
 .c-main-nav__item {
   display: inline-block;
   list-style-type: none;
-  margin-left: 3rem; }
+  margin-left: 1rem; }
+  @media only screen and (min-width: 768px) {
+    .c-main-nav__item {
+      margin-left: 2rem; } }
+  @media only screen and (min-width: 1024px) {
+    .c-main-nav__item {
+      margin-left: 3rem; } }
 
 .c-main-nav__link {
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase; }
@@ -552,8 +566,8 @@ body {
 .c-hero__logo {
   height: 100%;
   left: 50%;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 300px;
+  max-width: 300px;
   position: absolute;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -563,6 +577,10 @@ body {
       max-width: 400px;
       max-height: 400px; } }
   @media only screen and (min-width: 1024px) {
+    .c-hero__logo {
+      max-width: 500px;
+      max-height: 500px; } }
+  @media only screen and (min-width: 1600px) {
     .c-hero__logo {
       max-width: 700px;
       max-height: 700px; } }
@@ -575,14 +593,18 @@ body {
   position: absolute;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+  width: 100%;
   z-index: 10; }
 
 .c-page-title__main {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase; }
+  @media only screen and (min-width: 1024px) {
+    .c-page-title__main {
+      font-size: 3rem; } }
   .c-page-title__main em {
     font-family: Georgia, serif;
     color: #ef4c23;

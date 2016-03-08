@@ -14,12 +14,20 @@
 .c-main-nav__item {
   display: inline-block;
   list-style-type: none;
-  margin-left: 3rem;
+  margin-left: 1rem;
+
+  @include bp-medium {
+    margin-left: 2rem;
+  }
+
+  @include bp-large {
+    margin-left: 3rem;
+  }
 }
 
 .c-main-nav__link {
   color: $color-white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
