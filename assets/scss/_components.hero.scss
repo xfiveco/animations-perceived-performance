@@ -1,0 +1,33 @@
+// Hero
+
+.c-hero {
+  background: $color-black;
+  height: 100vh;
+  position: relative;
+}
+
+.c-hero__logo {
+  height: 100%;
+  left: 50%;
+  max-height: 200px;
+  max-width: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+
+  @include bp-medium {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @include bp-large {
+    max-width: 700px;
+    max-height: 700px;
+  }
+
+}
+
+.c-hero__rect {
+  display: none;
+}

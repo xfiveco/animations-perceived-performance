@@ -1,0 +1,30 @@
+// Main nav
+
+.c-main-nav {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  z-index: 10;
+}
+
+.c-main-nav__items {
+  margin: 0;
+}
+
+.c-main-nav__item {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 3rem;
+}
+
+.c-main-nav__link {
+  color: $color-white;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $color-orange;
+  }
+}
