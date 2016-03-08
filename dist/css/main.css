@@ -615,7 +615,7 @@ body {
 .c-page-title__list {
   font-size: 1.25rem;
   display: inline-block;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left; }
 
 /* Hide visually but not from screen readers */
