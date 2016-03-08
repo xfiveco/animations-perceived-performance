@@ -7,6 +7,7 @@
   transform: translateX(-50%) translateY(-50%);
   width: 100%;
   z-index: 10;
+  text-align: center;
 }
 
 .c-page-title__main {
@@ -26,4 +27,11 @@
     font-weight: normal;
     text-transform: lowercase;
   }
+}
+
+.c-page-title__list {
+  font-size: 1.25rem;
+  display: inline-block;
+  font-weight: bold;
+  text-align: left;
 }
