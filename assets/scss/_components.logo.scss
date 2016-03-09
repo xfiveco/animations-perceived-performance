@@ -1,11 +1,15 @@
 // Logo
 
-.c-header__logo-image {
+.c-logo {
+  display: block;
   left: 3rem;
   position: absolute;
   top: 2rem;
-  width: 50px;
   z-index: 10;
+}
+
+.c-logo__image {
+  width: 50px;
 
   @include bp-medium {
     width: 60px;
