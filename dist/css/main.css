@@ -585,9 +585,6 @@ body {
       max-width: 700px;
       max-height: 700px; } }
 
-.c-hero__rect {
-  display: none; }
-
 .c-page-title {
   left: 50%;
   position: absolute;
