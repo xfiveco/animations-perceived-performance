@@ -3,7 +3,7 @@
 },{"./modules/imageLoaded":2,"./modules/preloader":3}],2:[function(require,module,exports){
 "use strict";module.exports=function(){var e=document.querySelector(".js-image-load");if(e){var t=new Image,r=document.querySelector(e.getAttribute("data-target")),a=e.getAttribute("xlink:href");t.src=a,t.onload=function(){r.classList.add("src-image-loaded")}}};
 },{}],3:[function(require,module,exports){
-"use strict";module.exports=function(){var e=document.querySelector("body.is-loading");e&&setTimeout(function(){e.classList.remove("is-loading"),e.classList.add("is-loaded")},4e3)};
+"use strict";module.exports=function(){var e=document.querySelector("body.is-loading");e&&setTimeout(function(){e.classList.remove("is-loading"),e.classList.add("is-loaded")},2e3)};
 },{}]},{},[1])
 
 

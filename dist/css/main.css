@@ -538,7 +538,7 @@ body {
 
 .c-hero__fill--partial-animation.src-image-loaded {
   opacity: 0;
-  transition: opacity 5s; }
+  transition: opacity 3s; }
 
 .is-loading .c-logo,
 .is-loading .c-main-nav,
