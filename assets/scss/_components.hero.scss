@@ -32,6 +32,17 @@
   }
 }
 
-.c-hero__rect {
-  // display: none;
+.c-hero__fill--no-animation {
+
+  &.src-image-loaded {
+    display: none;
+  }
+}
+
+.c-hero__fill--partial-animation {
+
+  &.src-image-loaded {
+    opacity: 0;
+    transition: opacity 3s;
+  }
 }

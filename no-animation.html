@@ -38,8 +38,8 @@
     </div>
     <div class="c-hero__logo">
       <svg class="c-hero__mask" viewBox="0 0 1024 1024">
-        <image clip-path="url(#logo-mask)" height="100%" width="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/hero-home.jpg"></image>
-        <rect clip-path="url(#logo-mask)" class="c-hero__rect" height="100%" width="100%" fill="#ef4c23"></rect>
+        <image clip-path="url(#logo-mask)" height="100%" width="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dist/img/hero-home.jpg" class="js-image-load" data-target=".c-hero__fill"></image>
+        <rect clip-path="url(#logo-mask)" class="c-hero__fill c-hero__fill--no-animation" height="100%" width="100%" fill="#ef4c23"></rect>
         <clippath id="logo-mask">
           <title>X</title>
           <path data-min-y="0" data-max-y="200" class="path1" d="M958.080 246.88l28.384-28.352c49.984-49.984 49.984-131.104 0-181.088-49.952-49.952-130.944-49.952-180.928 0l-217.312 217.248 181.12 180.992 188.736-188.8z"></path>
@@ -52,5 +52,6 @@
   </div>
   <!-- / .c-hero -->
   </main>
+  <script src="dist/js/bundle.js" async></script>
 </body>
 </html>
