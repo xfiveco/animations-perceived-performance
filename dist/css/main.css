@@ -561,7 +561,7 @@ body {
 .is-loaded .c-page-title,
 .is-loaded .c-hero__logo {
   opacity: 1;
-  transition: opacity 2s; }
+  transition: opacity 1s; }
 
 .c-loading__loader {
   animation: c-loading-pulsate 2s ease-out infinite;
