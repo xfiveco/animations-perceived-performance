@@ -4,7 +4,8 @@
   .c-logo,
   .c-main-nav,
   .c-page-title,
-  .c-hero__logo {
+  .c-hero__logo,
+  .c-hero__image {
     opacity: 0;
   }
 
@@ -17,7 +18,8 @@
   .c-logo,
   .c-main-nav,
   .c-page-title,
-  .c-hero__logo {
+  .c-hero__logo,
+  .c-hero__image {
     opacity: 1;
     transition: opacity 1s;
   }

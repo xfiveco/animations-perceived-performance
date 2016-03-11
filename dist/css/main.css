@@ -508,8 +508,20 @@ body {
 
 .c-hero {
   background: #231f20;
-  height: 100vh;
-  position: relative; }
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-top: 67%; }
+  .c-hero:after {
+    background: #231f20;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
 
 .c-hero__logo {
   height: 100%;
@@ -540,10 +552,19 @@ body {
   opacity: 0;
   transition: opacity 3s; }
 
+.c-hero__image {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: auto; }
+
 .is-loading .c-logo,
 .is-loading .c-main-nav,
 .is-loading .c-page-title,
-.is-loading .c-hero__logo {
+.is-loading .c-hero__logo,
+.is-loading .c-hero__image {
   opacity: 0; }
 
 .is-loading .c-loading__loader {
@@ -552,7 +573,8 @@ body {
 .is-loaded .c-logo,
 .is-loaded .c-main-nav,
 .is-loaded .c-page-title,
-.is-loaded .c-hero__logo {
+.is-loaded .c-hero__logo,
+.is-loaded .c-hero__image {
   opacity: 1;
   transition: opacity 1s; }
 
@@ -644,6 +666,10 @@ body {
     color: #ef4c23;
     font-weight: normal;
     text-transform: lowercase; }
+
+.c-page-title__main--narrow {
+  width: 80%;
+  margin: 0 auto; }
 
 .c-page-title__list {
   font-size: 1.25rem;

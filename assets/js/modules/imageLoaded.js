@@ -13,8 +13,6 @@ module.exports = function() {
   var target = document.querySelector(image.getAttribute('data-target'));
   var imgSrc = image.getAttribute('xlink:href');
 
-  // console.log(target);
-
   img.src = imgSrc;
 
   img.onload = function () {
