@@ -560,6 +560,12 @@ body {
   top: 0;
   width: auto; }
 
+.c-hero__image--partial-animation {
+  opacity: 0; }
+  .c-hero__image--partial-animation.is-loaded {
+    opacity: 1;
+    transition: opacity 3s; }
+
 .is-loading .c-logo,
 .is-loading .c-main-nav,
 .is-loading .c-page-title,

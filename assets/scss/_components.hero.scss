@@ -68,4 +68,13 @@
   width: auto;
 }
 
+.c-hero__image--partial-animation {
+  opacity: 0;
+
+  &.is-loaded {
+    opacity: 1;
+    transition: opacity 3s;
+  }
+}
+
 
